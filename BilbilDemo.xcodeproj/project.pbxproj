@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00B13CD12A79452500738B06 /* contextmenuTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B13CCF2A79452500738B06 /* contextmenuTest.swift */; };
+		00B13CD22A79452500738B06 /* TextfieldTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B13CD02A79452500738B06 /* TextfieldTest.swift */; };
+		00B13CD82A79453700738B06 /* backgroundOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B13CD32A79453700738B06 /* backgroundOverlay.swift */; };
+		00B13CD92A79453700738B06 /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B13CD42A79453700738B06 /* Padding.swift */; };
+		00B13CDA2A79453700738B06 /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B13CD52A79453700738B06 /* Frame.swift */; };
+		00B13CDB2A79453700738B06 /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B13CD62A79453700738B06 /* Stacks.swift */; };
+		00B13CDC2A79453700738B06 /* Spacertest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B13CD72A79453700738B06 /* Spacertest.swift */; };
 		DC1F22F62A39DC3000D0FB64 /* Transitiontest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1F22F52A39DC3000D0FB64 /* Transitiontest.swift */; };
 		DC1F22F82A39DF0200D0FB64 /* Sheettest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1F22F72A39DF0200D0FB64 /* Sheettest.swift */; };
 		DC1F22FA2A3B2AEF00D0FB64 /* AniTranSheetTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1F22F92A3B2AEF00D0FB64 /* AniTranSheetTest.swift */; };
@@ -41,6 +48,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00B13CCF2A79452500738B06 /* contextmenuTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = contextmenuTest.swift; sourceTree = "<group>"; };
+		00B13CD02A79452500738B06 /* TextfieldTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextfieldTest.swift; sourceTree = "<group>"; };
+		00B13CD32A79453700738B06 /* backgroundOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = backgroundOverlay.swift; sourceTree = "<group>"; };
+		00B13CD42A79453700738B06 /* Padding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
+		00B13CD52A79453700738B06 /* Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
+		00B13CD62A79453700738B06 /* Stacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stacks.swift; path = ../../../BilbilDemo/BilbilDemo/Stacks.swift; sourceTree = "<group>"; };
+		00B13CD72A79453700738B06 /* Spacertest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spacertest.swift; sourceTree = "<group>"; };
 		DC1F22F52A39DC3000D0FB64 /* Transitiontest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transitiontest.swift; sourceTree = "<group>"; };
 		DC1F22F72A39DF0200D0FB64 /* Sheettest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheettest.swift; sourceTree = "<group>"; };
 		DC1F22F92A3B2AEF00D0FB64 /* AniTranSheetTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniTranSheetTest.swift; sourceTree = "<group>"; };
@@ -113,6 +127,7 @@
 				DC23F0A42A261481006C9CCB /* Gradinents.swift */,
 				DC23F0A62A261770006C9CCB /* Icons.swift */,
 				DC23F0A82A2619A0006C9CCB /* Images.swift */,
+				00B13CD72A79453700738B06 /* Spacertest.swift */,
 				DC23F0B32A276820006C9CCB /* Stacks.swift */,
 				DC21952C2A2DFCA5005803DB /* init&enums.swift */,
 				DC21952E2A2E013A005803DB /* ForEachtest.swift */,
@@ -134,6 +149,12 @@
 				DCAA28322A485C0700BC3983 /* Listtest.swift */,
 				DCAA28342A48649D00BC3983 /* Alerttest.swift */,
 				DCAA283A2A4986CB00BC3983 /* actionSheettest.swift */,
+				00B13CCF2A79452500738B06 /* contextmenuTest.swift */,
+				00B13CD02A79452500738B06 /* TextfieldTest.swift */,
+				00B13CD32A79453700738B06 /* backgroundOverlay.swift */,
+				00B13CD52A79453700738B06 /* Frame.swift */,
+				00B13CD42A79453700738B06 /* Padding.swift */,
+				00B13CD62A79453700738B06 /* Stacks.swift */,
 				DC23F0842A24C1D3006C9CCB /* Assets.xcassets */,
 				DC23F0862A24C1D3006C9CCB /* Preview Content */,
 			);
@@ -231,6 +252,7 @@
 				DCA8B3AA2A373C4600CEB4F7 /* BindingTest.swift in Sources */,
 				DC21953B2A2F4FCC005803DB /* LazyVGridtest.swift in Sources */,
 				DC23F0B42A276820006C9CCB /* Stacks.swift in Sources */,
+				00B13CDA2A79453700738B06 /* Frame.swift in Sources */,
 				DC23F0832A24C1D1006C9CCB /* ContentView.swift in Sources */,
 				DCA8B3B02A37476500CEB4F7 /* AnimationTest.swift in Sources */,
 				DCA8B3AC2A373F6A00CEB4F7 /* ConditionalTest.swift in Sources */,
@@ -239,13 +261,19 @@
 				DCAA283B2A4986CB00BC3983 /* actionSheettest.swift in Sources */,
 				DC21953F2A2F5C0E005803DB /* Buttontest.swift in Sources */,
 				DCA8B3AE2A3742EC00CEB4F7 /* TernaryTest.swift in Sources */,
+				00B13CD22A79452500738B06 /* TextfieldTest.swift in Sources */,
 				DC23F0A52A261481006C9CCB /* Gradinents.swift in Sources */,
 				DCB81D5D2A30A32D002969FA /* Statetest.swift in Sources */,
+				00B13CDC2A79453700738B06 /* Spacertest.swift in Sources */,
+				00B13CD92A79453700738B06 /* Padding.swift in Sources */,
+				00B13CD82A79453700738B06 /* backgroundOverlay.swift in Sources */,
 				DC2195312A2E0745005803DB /* Scrollviewtest.swift in Sources */,
 				DC21953D2A2F56AE005803DB /* SafeAreatest.swift in Sources */,
+				00B13CDB2A79453700738B06 /* Stacks.swift in Sources */,
 				DC1F22F82A39DF0200D0FB64 /* Sheettest.swift in Sources */,
 				DCA8B3A82A3739F500CEB4F7 /* ExtractedSubviews.swift in Sources */,
 				DC8F57152A40701100BD9463 /* NavigationTest.swift in Sources */,
+				00B13CD12A79452500738B06 /* contextmenuTest.swift in Sources */,
 				DCA8B3A62A37368900CEB4F7 /* ExtractedTest.swift in Sources */,
 				DC23F0812A24C1D1006C9CCB /* BilbilDemoApp.swift in Sources */,
 				DC1F22FA2A3B2AEF00D0FB64 /* AniTranSheetTest.swift in Sources */,
